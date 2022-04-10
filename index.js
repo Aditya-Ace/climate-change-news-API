@@ -1,7 +1,6 @@
 const express = require('express')
 const axios = require('axios')
 const cheerio = require('cheerio')
-const { contains } = require('cheerio/lib/static')
 
 const app = express()
 const PORT = process.env.PORT || 5000
